@@ -64,13 +64,13 @@ export default function App() {
             src={fuk}
             alt="ฟักทอง"
             className="w-[150px] h-auto cursor-pointer"
-            onClick={() => setLevel((level) => level + 10)}
+            onClick={() => {setLevel(level + 10); addSize2();}}
           />
           <img
             src={g}
             alt="หญ้า"
             className="w-[150px] h-auto cursor-pointer"
-            onClick={() => setLevel((level) => level + 20)}
+            onClick={() => {setLevel(level + 20); addSize3();}}
           />
         </div>
       </div>
