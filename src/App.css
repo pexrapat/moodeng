@@ -1,0 +1,21 @@
+@keyframes bounce {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+}
+  
+.bounce-up-down {
+  animation: bounce 1s infinite ease-in-out;
+}
+
+.img-hover-scale {
+  transform: scale(1);
+  transition: transform 0.4s ease-in-out;
+}
+  
+.img-hover-scale:hover {
+  transform: scale(1.1); /* Add scaling effect when hovered */
+}
